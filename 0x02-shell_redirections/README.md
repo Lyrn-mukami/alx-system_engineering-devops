@@ -20,7 +20,7 @@ head /etc/passwd
 Write a script that displays the third line of the file iacta
 The file iacta will be in the working directory
 You’re not allowed to use sed
-head -n 4 iacta
+head -n 3 iacta | tail -1
 7.It is a good file that cuts iron without making a noise
 Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
 echo "Best School" >  \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
